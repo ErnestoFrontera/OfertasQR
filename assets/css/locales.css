@@ -1,0 +1,22 @@
+ 
+.cards-locales img{
+    width: 20vw;   
+} 
+.cards-locales{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.cards-locales img{
+    border-radius: 50%;
+}
+.cards-nombre{
+    padding-left: 0 !important;
+}
+.card-title{
+    font-size: 1em;
+}
+.local-title i ,span{
+    font-size: 0.8em;
+    color: #757474;
+}
+ 

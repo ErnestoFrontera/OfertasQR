@@ -1,0 +1,46 @@
+ .cards-ofertas{
+    margin: 0 5px;
+ }
+ .banner img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+ .row{
+    height: auto;
+ }
+ .row-header{
+     padding: 20px 0 0;
+ }
+ .banner-title h2{
+    margin-bottom: .0rem;
+ }
+ .icons{
+     text-align: end;
+     align-self: flex-end;
+     color: springgreen;
+ }
+ .card{
+     border: none !important;     
+ }
+ .card-title{
+     margin-bottom: 0 !important;
+ }
+ .card-text{
+    font-size: 1.6em;
+ }
+ .cars img{
+     width: 30vw;
+     height: auto;
+ }
+ .precio{
+     align-self: center;
+
+ }
+ .article{
+     display: flex;
+     margin-bottom: 15px;
+     background-color:#f1f1f1;
+     padding: 10px;     
+ }

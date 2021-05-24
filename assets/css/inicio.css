@@ -1,0 +1,111 @@
+.row{
+    margin-right: auto !important;
+}
+.bd-placeholder-img{
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+.jumbotron{
+    background-image: url(../img/apollo-photography-jukKJSr9FcA-unsplash.jpg);       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+     
+    height: 70vh;
+    width: auto;
+}
+.lead{
+    text-align: center;
+}
+.title-inicio{
+    color: #fff;        
+}
+.jumbotron p{
+    color: #fff;
+    padding: 0 30px;
+    font-weight: 400;
+}
+.btn-primary{
+    margin-top: 150px;
+    background-color: springgreen !important;
+}
+.boton{
+    height: 400px !important;
+}
+.card-img-top1{
+    background-image: url(../img/PNGPIX-COM-Special-Offer-PNG-Transparent-Image.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 30vw; 
+    height: 200px;         
+}
+ 
+ 
+.card-img-top2{
+    background-image: url(../img/Student-Browsing-Laptop-PNG-image.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 30vw; 
+    height: 200px;         
+}
+.card-img-top3{
+    background-image: url(../img/PNGPIX-COM-Smart-Phone-PNG-Transparent-Image.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 30vw; 
+    height: 200px;         
+}
+ 
+ 
+.parallax{
+    background-image: url(../img/Qr.jpg);
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(../img/simon-bak-OuKBpYTWLu4-unsplash.jpg);
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card img{
+    width: 80%;
+}
+.que-ofrecemos h2{
+    text-align: center;
+    margin: 40px;
+
+}
+
+
+@media only screen and (min-device-width: 700px){
+     
+    .card-img-top{           
+        width: 350px !important; 
+        height: 250px !important; 
+        align-self: center;
+        border-radius: 5px !important; 
+        overflow: hidden;    
+    }
+    .card-body{
+        margin-left: 30px;
+    }
+   
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+
+}
