@@ -1,14 +1,7 @@
 .row{
-    margin-right: auto !important;
+   margin-right: calc(var(--bs-gutter-x)/ 0) !important; 
+   margin-left: calc(var(--bs-gutter-x)/ 0) !important;
 }
-.bd-placeholder-img{
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
 .jumbotron{
     background-image: url(../img/apollo-photography-jukKJSr9FcA-unsplash.jpg);       
     background-position: center;
@@ -36,33 +29,6 @@
 .boton{
     height: 400px !important;
 }
-.card-img-top1{
-    background-image: url(../img/PNGPIX-COM-Special-Offer-PNG-Transparent-Image.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 30vw; 
-    height: 200px;         
-}
- 
- 
-.card-img-top2{
-    background-image: url(../img/Student-Browsing-Laptop-PNG-image.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 30vw; 
-    height: 200px;         
-}
-.card-img-top3{
-    background-image: url(../img/PNGPIX-COM-Smart-Phone-PNG-Transparent-Image.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 30vw; 
-    height: 200px;         
-}
- 
  
 .parallax{
     background-image: url(../img/Qr.jpg);
@@ -80,15 +46,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card img{
-    width: 80%;
-}
-.que-ofrecemos h2{
-    text-align: center;
-    margin: 40px;
-
-}
-
 
 @media only screen and (min-device-width: 700px){
      
@@ -103,9 +60,6 @@
         margin-left: 30px;
     }
    
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-
+   
 
 }
