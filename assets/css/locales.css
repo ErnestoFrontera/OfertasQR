@@ -1,16 +1,20 @@
  
 .cards-locales img{
-    width: 20vw;   
+    width: 50px;
+    height: 50px; 
+    border-radius: 5px;
+    border: 1px solid #262525;
 } 
 .cards-locales{
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-.cards-locales img{
-    border-radius: 50%;
-}
+ 
 .cards-nombre{
     padding-left: 0 !important;
+}
+.cards-nombre a{
+     
 }
 .card-title{
     font-size: 1em;

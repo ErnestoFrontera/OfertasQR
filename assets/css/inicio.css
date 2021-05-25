@@ -3,7 +3,7 @@
    margin-left: calc(var(--bs-gutter-x)/ 0) !important;
 }
 .jumbotron{
-    background-image: url(../img/apollo-photography-jukKJSr9FcA-unsplash.jpg);       
+    background-image: url(../img/pexels-tim-douglas-6205512.jpg);       
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -11,11 +11,16 @@
     height: 70vh;
     width: auto;
 }
+ 
+.title{
+    font-size: 1.5rem;
+}
 .lead{
-    text-align: center;
+    padding: 0 30px;
 }
 .title-inicio{
-    color: #fff;        
+    color: #000;
+    text-align: center;        
 }
 .jumbotron p{
     color: #fff;
@@ -23,8 +28,11 @@
     font-weight: 400;
 }
 .btn-primary{
-    margin-top: 150px;
+    margin-top: 30px;
     background-color: springgreen !important;
+}
+.btn-success{
+    margin: auto;
 }
 .boton{
     height: 400px !important;
@@ -32,15 +40,20 @@
  
 .parallax{
     background-image: url(../img/Qr.jpg);
-    height: 30vh;
+    height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.quienes-somos{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;    
+    letter-spacing: 1.2px;
+}
 .parallax2{
     background-image: url(../img/simon-bak-OuKBpYTWLu4-unsplash.jpg);
-    height: 30vh;
+    height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,9 +1,17 @@
 @import url('./header-comercios.css');
 @import url('./locales.css');
 @import url('./inicio.css');
+@font-face {
+    font-family:Helvetica;
+    src: url('../fuentes/helvetica-normal.ttf');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica,Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
 };
+
  
