@@ -4,10 +4,10 @@
 @font-face {
     font-family:Helvetica;
     src: url('../fuentes/helvetica-normal.ttf');
-}
+} 
 @font-face {
-    font-family:Billabong;
-    src: url('../fuentes/FontsFree-Net-Billabong.ttf');
+    font-family:Gravity;
+    src: url('../fuentes/KGDefyingGravity.ttf');
 }
 *{
     margin: 0;

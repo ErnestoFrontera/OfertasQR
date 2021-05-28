@@ -1,4 +1,7 @@
- 
+ .ofertas{
+     text-decoration: none !important;
+    
+ }
 .cards-locales img{
     width: 50px;
     height: 50px; 
@@ -12,12 +15,14 @@
  
 .cards-nombre{
     padding-left: 0 !important;
+    
 }
 .cards-nombre a{
      
 }
 .card-title{
     font-size: 1em;
+    color: black;
 }
 .local-title i ,span{
     font-size: 0.8em;
