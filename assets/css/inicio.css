@@ -3,10 +3,10 @@
    margin-left: calc(var(--bs-gutter-x)/ 0) !important;
    padding: 0 !important;
 }
+
 .navbar-brand{
-    margin: auto !important;
-    
-}
+    margin: auto !important;       
+} 
  
 .jumbotron{
     background-image: url(../img/pexels-tim-douglas-6205512.jpg);       
@@ -49,6 +49,15 @@
 .boton{
     height: 400px !important;
 }
+.card{
+    width: 90% !important;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.21); 
+    box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.21);
+}
+.lista li{
+    list-style: none;
+}
  
 .parallax{
     background-image: url(../img/Qr.jpg);
@@ -58,18 +67,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.quienes-somos{
-    font-family: Helvetica, Arial, Helvetica, sans-serif;
-    text-align: center;    
-    letter-spacing: 1.2px;
+.marketin{
+    background-color: #8b5f5b;
+    width: 100%;
+    margin-top: 70px;
+    height: 200px;
+    border-radius: 8px;
 }
-.parallax2{
-    background-image: url(../img/simon-bak-OuKBpYTWLu4-unsplash.jpg);
-    height: 100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.marketin h3{
+    color: #fff;
+    width: 50%;
+    padding: auto;
+    margin: auto;
+    padding-top: 50px;
 }
 
 @media only screen and (min-device-width: 700px){
