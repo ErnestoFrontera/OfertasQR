@@ -24,13 +24,10 @@
 
  }
  .row{
-    height: auto;
-    
+    height: auto;    
     --bs-gutter-x: 0 !important;
  }
- .row-header{
-     
- }
+ 
  .banner-title h2{ 
     color: #fff;
     font-size: 24px;

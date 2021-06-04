@@ -33,6 +33,8 @@
 }
 .btn-ver-comercio{
     width: 60vw !important;
+    border-radius: 10px !important;
+    
 }
 .jumbotron p{
     color: #fff;
@@ -40,8 +42,9 @@
     font-weight: 400;
 }
 .btn-primary{
-    margin-top: 30px;
-    background-color: springgreen !important;
+    margin-top: 0px;
+    background-color:  #198754 !important;
+    margin-bottom: 30px;
 }
 .btn-success{
     margin: auto;
@@ -69,7 +72,8 @@
 }
 .marketin{
     background-color: #8b5f5b;
-    width: 100%;
+    width: 90% !important;
+    margin: auto;
     margin-top: 70px;
     height: 200px;
     border-radius: 8px;
