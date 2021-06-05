@@ -85,3 +85,13 @@
      background-color:#f1f1f1;
      padding: 10px;     
  }
+ .social-comercio{
+     background-color: #8b5f5b;
+     padding: 10px 20px;
+     border-radius: 8px;
+ }
+ .social-comercio i{
+     padding: 10px;
+     font-size: 25px;
+     color: #fff;
+ }

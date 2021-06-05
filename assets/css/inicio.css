@@ -63,6 +63,7 @@
 }
  
 .parallax{
+    display: none;
     background-image: url(../img/Qr.jpg);
     height: 100px;
     background-attachment: fixed;
@@ -73,17 +74,30 @@
 .marketin{
     background-color: #8b5f5b;
     width: 90% !important;
+    height: 300px !important;
     margin: auto;
-    margin-top: 70px;
     height: 200px;
     border-radius: 8px;
+    text-align: center;
 }
-.marketin h3{
+.marketin p{    
     color: #fff;
     width: 50%;
     padding: auto;
     margin: auto;
     padding-top: 50px;
+    font-size: 30px;
+    font-family: initial;
+}
+.contacto{
+}
+.contacto h2{
+    border-bottom: 3px solid #cacaca;
+    width: 80px;
+    margin: auto;
+    font-family:serif;
+    font-size: 30px;
+  
 }
 
 @media only screen and (min-device-width: 700px){
