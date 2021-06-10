@@ -3,6 +3,9 @@
    margin-left: calc(var(--bs-gutter-x)/ 0) !important;
    padding: 0 !important;
 }
+main{
+    overflow: hidden;
+}
 
 .navbar-brand{
     margin: auto !important;       
@@ -45,6 +48,8 @@
     margin-top: 0px;
     background-color:  #198754 !important;
     margin-bottom: 30px;
+    width: 100%;
+    border: none !important;
 }
 .btn-success{
     margin: auto;
