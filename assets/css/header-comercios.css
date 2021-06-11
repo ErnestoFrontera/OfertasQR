@@ -94,3 +94,36 @@
      font-size: 25px;
      color: #fff;
  }
+ .icon-comercio{
+     font-size: 25px !important;
+ }
+ @media only screen and (min-device-width: 700px){
+     .banner{
+         height: 300px;
+     }
+     .capa{
+         250px
+     }
+     .banner-title h2{
+         font-size: 4rem;
+         padding-left: 0;
+         text-align: center;
+         bottom: 50px;
+     }
+     .banner-title p{
+         font-size: 1rem;
+         text-align: center;
+
+     }
+     .icon-comercio{
+         font-size: 45px !important;
+     }
+     .cards-ofertas{
+         margin-left: 100px;
+     }
+     .cars img{
+         width: 15vw;
+     }
+
+
+ }
