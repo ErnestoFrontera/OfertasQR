@@ -19,18 +19,30 @@ main{
     height: 70vh;
     width: auto;
 }
+.jumbotron h1{
+    margin-top: 40px;
+}
  
 .title{
     font-size: 1.5rem;
 }
 .lead{
-    padding: 0 30px;
+    /*padding: 0 30px;*/
 }
+.title-oferta{
+    font-size: 3rem;
+    line-height: 1.3;     
+    font-weight: bold !important;      
+    color: #FFFFFF; 
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #FFFFFF;
+}
+
 .title-inicio{
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 2rem;
     line-height: 1.3;
-    color: #fff;
+    color: #f1f1f1;
     font-weight: bold !important; 
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);       
 }
@@ -70,7 +82,7 @@ main{
 .parallax{
     display: none;
     background-image: url(../img/Qr.jpg);
-    height: 100px;
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,11 +90,10 @@ main{
 }
 .marketin{
     background-color: #8b5f5b;
-    width: 90% !important;
+    width: 100% !important;
     height: 300px !important;
     margin: auto;
     height: 200px;
-    border-radius: 8px;
     text-align: center;
     margin-top: 40px !important;
 }
@@ -110,9 +121,21 @@ main{
 .que-es-ofertas{
     margin-top: 40px !important;
 }
+.parrafo{
+    margin: 20px;
+}
 
 @media only screen and (min-device-width: 700px){
-     
+    .jumbotron{
+        height: 100vh;
+    } 
+    .jumbotron h2{
+        width: 60%;
+        margin: auto;
+     }
+     .jumbotron h1{
+         margin-top: 120px;
+     }
     .card-img-top{           
         width: 350px !important; 
         height: 250px !important; 
@@ -126,10 +149,10 @@ main{
     .parallax{
         display: block;
         margin-top: 5rem;
-        height: 200px;
+        height: 350px;
     }
     .card-group{
-        margin-top: 80px;
+        margin-top: 20px;
         margin-bottom: 80px;        
     }
     .card-que-es{
@@ -158,7 +181,13 @@ main{
         width: 30vw !important;
     }
     .title-inicio{
-        font-size: 3rem !important;
+        font-size: 56px !important;
+    }
+    .title-oferta{
+        font-size: 68px;
+    }
+    .btn-ver-comercio{
+        margin-top: 100px;
     }
     
 
