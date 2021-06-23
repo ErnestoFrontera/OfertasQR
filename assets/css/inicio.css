@@ -108,11 +108,9 @@ main{
 }
 .contacto{
 }
-.contacto h2{
-    border-bottom: 3px solid #cacaca;
+.contacto h2{    
     width: 80px;
     margin: auto;
-    font-family:serif;
     font-size: 30px;  
 }
 .card_group{
@@ -125,6 +123,10 @@ main{
     margin: 20px;
 }
 
+#map {
+	height: 500px;
+	width: 100%;
+}
 @media only screen and (min-device-width: 700px){
     .jumbotron{
         height: 100vh;

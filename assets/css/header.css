@@ -1,0 +1,6 @@
+.navbar-nav{
+    width: 80% !important;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
