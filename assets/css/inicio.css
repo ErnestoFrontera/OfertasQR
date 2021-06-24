@@ -124,7 +124,7 @@ main{
 .contacto-map{
     background-color: #cacaca;
 }
-#map{
+.map{
 	height: 400px;
 	width: 100%;
     border-radius: 4px;
@@ -199,7 +199,7 @@ main{
         flex-direction: row;        
         margin-bottom: 40px;
     }
-    #map{
+    .map{
         height: 400px;
         width: 50%;
         border-radius: 4px;
