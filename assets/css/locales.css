@@ -6,8 +6,8 @@
 .cards-locales{
     padding-left: 0 !important;
     padding-right: 0 !important;
-    height: 78px;
-    width: 78px;
+    height: 90px;
+    width: 90px;
 }
 .cards-locales img{
     height: 100%; 
@@ -29,6 +29,10 @@
 .local-title i ,span{
     font-size: 0.8em;
     color: #757474;
+}
+.article-locales{
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
 }
 
 @media only screen and (min-device-width: 700px){
@@ -54,6 +58,10 @@
     }
     .icons{
         padding-top: 150px;
+    }
+    .article-locales{
+        height: 200px;
+        margin-bottom: 40px;
     }
     
 

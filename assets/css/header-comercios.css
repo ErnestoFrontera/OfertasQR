@@ -85,18 +85,22 @@
      background-color:#f1f1f1;
      padding: 10px;     
  }
- .social-comercio{
-     background-color: #8b5f5b;
-     padding: 10px 20px;
-     border-radius: 8px;
- }
- .social-comercio i{
-     padding: 10px;
+ 
+ .whatsapp{
      font-size: 25px;
-     color: #fff;
+     bottom: 80px;
+     position: fixed;
+     background-color: #25d366;
+     color: #FFF;
+     border-radius: 50px;
+     right: 20PX;
+     text-align: center;
+     width: 50px;
+     height: 50px;
+     z-index: 100;
  }
- .icon-comercio{
-     font-size: 35px !important;
+ .whatsapp-icon{
+     margin-top: 13px;
  }
  @media only screen and (min-device-width: 700px){
      .banner{
@@ -116,9 +120,14 @@
          text-align: center;
 
      }
-     .icon-comercio{
-         font-size: 45px !important;
+     .whatsapp{
+         font-size: 35px;
+         width: 70px;
+         height: 70px;
      }
+     .whatsapp-icon{
+        margin-top: 16px;
+    }
      .cards-ofertas{
          margin-left: 100px;
      }
