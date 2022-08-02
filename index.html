@@ -117,18 +117,18 @@
  
           <div class=" container formulario-cont mt-5">   
 
-              <form  method="post" class="row formu g-3">                  
+              <form name="formulario-contacto" class="row formu g-3">                  
                   
                   <div class="col-12">          
-                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                   </div>
 
                   <div class="col-sm-12">
-                    <input type="email" class="form-control" id="mail" placeholder="Mail">
+                    <input type="email" class="form-control" id="email" placeholder="email">
                   </div>
 
                   <div class="col-12">           
-                    <input type="text" class="form-control" id="phone" placeholder="Telefono">
+                    <input type="text" class="form-control" id="telefono" placeholder="Telefono">
  
                   </div>                         
                   
@@ -136,7 +136,7 @@
                     
                   </div>
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary ">Enviar</button>
+                    <button type="submit" id="enviarcorreo" class="btn btn-primary" value="enviar">Enviar</button>
                   </div>
               </form>                
                       
@@ -164,5 +164,21 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/scrip.js"></script>
+
+    <script>
+      const btnEnvio = document.getElementById('enviarcorreo');
+      btnEnvio.addEventListener('click', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('nombre').value;
+        const mail = document.getElementById('email').value;
+        const phone = document.getElementById('telefono').value;
+        window.location.href='mailto:ernestorfrontera@gmail.com?
+        subject=envioDesdeFormulario&
+        body=Nombre%3A${nombre}%0AMail%3A%20${email}%0ATelefono%3A%20${Telefono}' ;
+    
+      } ) ;
+    
+    </script>
 </body>
+
 </html>
