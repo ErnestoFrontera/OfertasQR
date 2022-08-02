@@ -34,6 +34,11 @@
     margin-bottom: 20px;
     background-color: #f1f1f1;
 }
+.map-paseo-mb{
+    height: 250px;
+    width: 100%;
+    border-radius: 4px;
+}
 
 @media only screen and (min-device-width: 700px){
     .article{
@@ -62,6 +67,11 @@
     .article-locales{
         height: 200px;
         margin-bottom: 40px;
+    }
+    .map-paseo-mb{
+        height: 400px;
+        width: 100%;
+        border-radius: 4px;   
     }
     
 
